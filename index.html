@@ -1,0 +1,826 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <base target="_self" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Digi 100% - Lance ton business digital depuis ton téléphone</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/logo/favicon.ico" />
+    <meta
+      name="description"
+      content="La méthode complète pour créer, vendre et automatiser ton business digital depuis ton téléphone. 9 modules, bonus exclusifs, 47€ seulement."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              dark: '#111827',
+              primary: '#FF6B00',
+              'primary-dark': '#E65C00',
+              'dark-light': '#1F2937',
+              'dark-lighter': '#374151',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Poppins', 'sans-serif'],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Inter', 'sans-serif';
+        background-color: #111827;
+        color: #ffffff;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family: 'Poppins', 'sans-serif';
+      }
+      .gradient-text {
+        background: linear-gradient(135deg, #ff6b00 0%, #ff8533 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+      .card-hover {
+        transition: all 0.3s ease;
+      }
+      .card-hover:hover {
+        transform: translateY(-4px);
+        box-shadow: 0 20px 40px rgba(255, 107, 0, 0.15);
+      }
+      .gold-card {
+        background: linear-gradient(135deg, #1f2937 0%, #2d3748 100%);
+        border: 2px solid #ffd700;
+      }
+      .pulse-animation {
+        animation: pulse 2s infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          box-shadow: 0 0 0 0 rgba(255, 107, 0, 0.4);
+        }
+        50% {
+          box-shadow: 0 0 0 15px rgba(255, 107, 0, 0);
+        }
+      }
+      .faq-content {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      .faq-content.active {
+        max-height: 500px;
+      }
+      .faq-icon {
+        transition: transform 0.3s ease;
+      }
+      .faq-icon.active {
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body class="antialiased overflow-x-hidden">
+    <!-- Header -->
+    <header
+      class="fixed top-0 left-0 right-0 z-50 bg-dark/95 backdrop-blur-sm border-b border-dark-lighter"
+    >
+      <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+        <div class="font-display font-bold text-xl text-white">
+          La Digi <span class="text-primary">100%</span>
+        </div>
+        <nav class="hidden md:flex space-x-6">
+          <a
+            href="#modules"
+            class="text-gray-300 hover:text-primary transition-colors text-sm font-medium"
+            >Modules</a
+          >
+          <a
+            href="#bonus"
+            class="text-gray-300 hover:text-primary transition-colors text-sm font-medium"
+            >Bonus</a
+          >
+          <a
+            href="#temoignages"
+            class="text-gray-300 hover:text-primary transition-colors text-sm font-medium"
+            >Avis</a
+          >
+          <a
+            href="#faq"
+            class="text-gray-300 hover:text-primary transition-colors text-sm font-medium"
+            >FAQ</a
+          >
+          <a
+            href="#prix"
+            class="text-gray-300 hover:text-primary transition-colors text-sm font-medium"
+            >Prix</a
+          >
+        </nav>
+        <a
+          href="https://shop.beacons.ai/wiwil_/76beb6e5-83ac-4cf1-9877-5d4f94262d2f"
+          class="bg-primary hover:bg-primary-dark text-white px-4 py-2 rounded-full text-sm font-semibold transition-colors"
+        >
+          J'accède — 47€
+        </a>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="relative min-h-screen flex items-center justify-center pt-20 pb-16 px-4 overflow-hidden"
+    >
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-primary/5 to-transparent pointer-events-none"
+      ></div>
+      <div class="container mx-auto max-w-4xl text-center relative z-10">
+        <div
+          class="inline-flex items-center gap-2 bg-dark-light border border-dark-lighter rounded-full px-4 py-2 mb-8 animate-fade-in"
+        >
+          <span class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+          <span class="text-sm text-gray-300">Formation mise à jour en 2026</span>
+        </div>
+
+        <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          Lance ton <span class="gradient-text">business digital</span> depuis ton téléphone
+        </h1>
+
+        <p class="text-lg md:text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
+          La méthode complète pour créer, vendre et automatiser — même sans expérience
+        </p>
+
+        <div class="flex flex-col items-center gap-6 mb-8">
+          <a
+            href="https://shop.beacons.ai/wiwil_/76beb6e5-83ac-4cf1-9877-5d4f94262d2f"
+            class="bg-primary hover:bg-primary-dark text-white text-lg md:text-xl font-bold py-4 px-8 rounded-full pulse-animation transition-all transform hover:scale-105 shadow-lg shadow-primary/30 inline-flex items-center gap-2"
+          >
+            Je veux La Digi 100% — 47€
+            <i class="fas fa-arrow-right"></i>
+          </a>
+
+          <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+            <span class="flex items-center gap-2">
+              <i class="fas fa-check-circle text-green-500"></i>
+              Accès immédiat
+            </span>
+            <span class="flex items-center gap-2">
+              <i class="fas fa-shield-alt text-primary"></i>
+              Paiement 100% sécurisé
+            </span>
+          </div>
+        </div>
+
+        <div class="mt-12 relative">
+          <img
+            src="https://picsum.photos/800/450?random=1"
+            alt="Interface mobile de la formation"
+            class="rounded-2xl shadow-2xl border border-dark-lighter mx-auto max-w-full"
+            loading="lazy"
+          />
+          <div
+            class="absolute -bottom-4 -right-4 bg-primary text-white p-4 rounded-xl shadow-lg hidden md:block"
+          >
+            <div class="text-2xl font-bold">+5000</div>
+            <div class="text-xs">élèves formés</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pain Points Section -->
+    <section class="py-20 bg-dark-light">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">
+            Tu te reconnais dans l'une de ces situations ?
+          </h2>
+          <p class="text-gray-400">
+            Ne t'inquiète pas, tu n'es pas seul(e). Voici ce que rencontrent 90% des créateurs de
+            contenu.
+          </p>
+        </div>
+
+        <div id="pain-points-container" class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto">
+          <!-- Rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="py-20 px-4">
+      <div class="container mx-auto max-w-4xl text-center">
+        <div
+          class="bg-gradient-to-r from-primary/20 to-transparent border border-primary/30 rounded-3xl p-8 md:p-12"
+        >
+          <i class="fas fa-lightbulb text-5xl text-primary mb-6"></i>
+          <h2 class="text-3xl md:text-4xl font-bold mb-6 leading-tight">
+            La Digi 100% est le système complet qui t'amène de
+            <span class="text-primary">zéro</span> à tes
+            <span class="text-primary">premières ventes en ligne</span>
+          </h2>
+          <p class="text-lg text-gray-300 mb-8">
+            Une méthode éprouvée, testée par plus de 5000 entrepreneurs digitaux, qui fonctionne
+            même si tu pars de zéro et que tu n'as que ton téléphone.
+          </p>
+          <div class="flex flex-wrap justify-center gap-8 text-sm">
+            <div class="flex items-center gap-2">
+              <i class="fas fa-mobile-alt text-primary"></i>
+              <span>100% mobile-friendly</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-infinity text-primary"></i>
+              <span>Accès à vie</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <i class="fas fa-sync-alt text-primary"></i>
+              <span>Mises à jour incluses</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modules Section -->
+    <section id="modules" class="py-20 bg-dark-light">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <span class="text-primary font-semibold text-sm uppercase tracking-wider"
+            >Le programme</span
+          >
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">
+            9 modules pour maîtriser le digital
+          </h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Un parcours complet de A à Z, du premier jour jusqu'à l'automatisation de tes ventes.
+          </p>
+        </div>
+
+        <div
+          id="modules-container"
+          class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto"
+        >
+          <!-- Rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Bonus Section -->
+    <section id="bonus" class="py-20 px-4 relative overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-yellow-500/5 to-transparent pointer-events-none"
+      ></div>
+      <div class="container mx-auto max-w-5xl relative z-10">
+        <div class="text-center mb-16">
+          <span class="text-yellow-500 font-semibold text-sm uppercase tracking-wider"
+            >Bonus exclusifs</span
+          >
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Les bonus qui changent tout</h2>
+          <p class="text-gray-400">
+            Des ressources supplémentaires d'une valeur de 297€ offertes aujourd'hui.
+          </p>
+        </div>
+
+        <div id="bonus-container" class="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+          <!-- Rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="temoignages" class="py-20 bg-dark-light">
+      <div class="container mx-auto px-4">
+        <div class="text-center mb-16">
+          <span class="text-primary font-semibold text-sm uppercase tracking-wider"
+            >Ils ont réussi</span
+          >
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Ce que disent nos élèves</h2>
+          <p class="text-gray-400 max-w-2xl mx-auto">
+            Des résultats concrets obtenus en appliquant la méthode pas à pas.
+          </p>
+        </div>
+
+        <div id="testimonials-container" class="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <!-- Rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="py-20 px-4">
+      <div class="container mx-auto max-w-3xl">
+        <div class="text-center mb-16">
+          <span class="text-primary font-semibold text-sm uppercase tracking-wider"
+            >Questions fréquentes</span
+          >
+          <h2 class="text-3xl md:text-4xl font-bold mt-2 mb-4">Tu as des questions ?</h2>
+          <p class="text-gray-400">Voici les réponses aux questions les plus courantes.</p>
+        </div>
+
+        <div id="faq-container" class="space-y-4">
+          <!-- Rendered by JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="prix" class="py-20 bg-dark-light">
+      <div class="container mx-auto px-4 max-w-3xl">
+        <div
+          class="bg-dark border-2 border-primary rounded-3xl p-8 md:p-12 text-center relative overflow-hidden"
+        >
+          <div
+            class="absolute top-0 right-0 bg-primary text-white text-xs font-bold px-4 py-2 rounded-bl-xl"
+          >
+            OFFRE LIMITÉE
+          </div>
+
+          <h2 class="text-3xl md:text-4xl font-bold mb-4">Investissement unique</h2>
+          <p class="text-gray-400 mb-8">Accès immédiat à vie + toutes les futures mises à jour</p>
+
+          <div class="mb-8">
+            <div class="text-gray-500 line-through text-2xl mb-2">197€</div>
+            <div class="text-5xl md:text-6xl font-bold text-primary mb-2">47€</div>
+            <div class="text-sm text-gray-400">au lieu de 197€ aujourd'hui</div>
+          </div>
+
+          <div class="space-y-4 mb-8 text-left max-w-md mx-auto">
+            <div class="flex items-center gap-3">
+              <i class="fas fa-check text-primary"></i>
+              <span class="text-gray-300">9 modules complets (valeur 497€)</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fas fa-check text-primary"></i>
+              <span class="text-gray-300">2 bonus exclusifs (valeur 297€)</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fas fa-check text-primary"></i>
+              <span class="text-gray-300">Accès à vie et mises à jour</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <i class="fas fa-check text-primary"></i>
+              <span class="text-gray-300">Accès à vie garanti</span>
+            </div>
+          </div>
+
+          <a
+            href="https://shop.beacons.ai/wiwil_/76beb6e5-83ac-4cf1-9877-5d4f94262d2f"
+            class="block w-full bg-primary hover:bg-primary-dark text-white text-xl font-bold py-5 px-8 rounded-full pulse-animation transition-all transform hover:scale-105 shadow-lg shadow-primary/30 mb-6"
+          >
+            J'accède maintenant — 47€
+          </a>
+
+          <div class="flex justify-center items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-lock"></i>
+            <span>Paiement sécurisé SSL</span>
+          </div>
+
+          <div class="mt-6 flex justify-center gap-4 opacity-50">
+            <i class="fab fa-cc-visa text-3xl"></i>
+            <i class="fab fa-cc-mastercard text-3xl"></i>
+            <i class="fab fa-cc-paypal text-3xl"></i>
+            <i class="fab fa-cc-apple-pay text-3xl"></i>
+          </div>
+        </div>
+
+        <div class="text-center mt-8 text-sm text-gray-500">
+          <p>
+            Prix spécial valable uniquement aujourd'hui. Passé ce délai, retour au prix normal de
+            197€.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-20 px-4 relative overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent pointer-events-none"
+      ></div>
+      <div class="container mx-auto max-w-4xl text-center relative z-10">
+        <h2 class="text-3xl md:text-5xl font-bold mb-6">
+          Prêt(e) à transformer ton téléphone en machine à vendre ?
+        </h2>
+        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          Rejoins les 5000+ entrepreneurs qui ont déjà lancé leur business digital avec La Digi
+          100%.
+        </p>
+
+        <a
+          href="https://shop.beacons.ai/wiwil_/76beb6e5-83ac-4cf1-9877-5d4f94262d2f"
+          class="inline-block bg-primary hover:bg-primary-dark text-white text-2xl font-bold py-6 px-12 rounded-full pulse-animation transition-all transform hover:scale-105 shadow-2xl shadow-primary/40 mb-6"
+        >
+          Je commence maintenant — 47€
+        </a>
+
+        <div class="flex flex-col items-center gap-4">
+          <div class="flex items-center gap-2 text-yellow-500 font-semibold">
+            <i class="fas fa-fire"></i>
+            <span>Prix de lancement, peut évoluer à tout moment</span>
+          </div>
+          <div class="flex items-center gap-2 text-sm text-gray-400">
+            <i class="fas fa-shield-alt text-green-500"></i>
+            <span>Accès à vie garanti</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark border-t border-dark-lighter py-12 px-4">
+      <div class="container mx-auto max-w-6xl">
+        <div class="grid md:grid-cols-4 gap-8 mb-8">
+          <div class="col-span-2">
+            <div class="font-display font-bold text-2xl text-white mb-4">
+              La Digi <span class="text-primary">100%</span>
+            </div>
+            <p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+              La méthode complète pour créer, vendre et automatiser ton business digital depuis ton
+              téléphone, même sans expérience technique.
+            </p>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Liens rapides</h4>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li>
+                <a href="#modules" class="hover:text-primary transition-colors">Les modules</a>
+              </li>
+              <li><a href="#bonus" class="hover:text-primary transition-colors">Les bonus</a></li>
+              <li>
+                <a href="#temoignages" class="hover:text-primary transition-colors">Témoignages</a>
+              </li>
+              <li><a href="#faq" class="hover:text-primary transition-colors">FAQ</a></li>
+              <li><a href="#prix" class="hover:text-primary transition-colors">Tarifs</a></li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="font-semibold mb-4">Légal</h4>
+            <ul class="space-y-2 text-sm text-gray-400">
+              <li><a href="#" class="hover:text-primary transition-colors">Mentions légales</a></li>
+              <li><a href="#" class="hover:text-primary transition-colors">CGV</a></li>
+              <li>
+                <a href="#" class="hover:text-primary transition-colors"
+                  >Politique de confidentialité</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="border-t border-dark-lighter pt-8 text-center text-sm text-gray-500">
+          <p>&copy; 2024 La Digi 100%. Tous droits réservés.</p>
+          <p class="mt-2">
+            Résultats non garantis. Les résultats varient selon l'implication de chacun.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      // Data Layer
+      const painPointsData = [
+        {
+          icon: 'fa-compass',
+          text: 'Tu ne sais pas par où commencer',
+        },
+        {
+          icon: 'fa-chart-line',
+          text: 'Tu postes mais tu ne vends rien',
+        },
+        {
+          icon: 'fa-clock',
+          text: 'Tu perds du temps à tout faire from scratch',
+        },
+      ];
+
+      const modulesData = [
+        {
+          number: '01',
+          icon: 'fa-tools',
+          title: 'Introduction & outils essentiels',
+          description:
+            'Les fondations indispensables pour démarrer sans te perdre dans la technique.',
+        },
+        {
+          number: '02',
+          icon: 'fa-sitemap',
+          title: 'Construire son écosystème digital',
+          description:
+            'Comment créer une présence cohérente et professionnelle sur tous les canaux.',
+        },
+        {
+          number: '03',
+          icon: 'fa-robot',
+          title: "Créer une formation avec l'IA",
+          description:
+            "Utilise l'intelligence artificielle pour créer du contenu pédagogique de qualité en un temps record.",
+        },
+        {
+          number: '04',
+          icon: 'fa-link',
+          title: 'Optimiser Beacons pour vendre',
+          description:
+            'La stratégie complète pour transformer ton lien en bio en machine à vendre.',
+        },
+        {
+          number: '05',
+          icon: 'fa-hashtag',
+          title: 'Trouver sa niche rentable TikTok',
+          description: 'Identifie le créneau parfait où tu peux te positionner et te démarquer.',
+        },
+        {
+          number: '06',
+          icon: 'fa-video',
+          title: 'Créer du contenu avec/sans caméra',
+          description: 'Toutes les techniques de création, que tu sois timide ou extraverti.',
+        },
+        {
+          number: '07',
+          icon: 'fa-bullseye',
+          title: 'Publicité & tunnel automatisé',
+          description: 'Mets en place un système qui vend pour toi 24h/24, 7j/7.',
+        },
+        {
+          number: '08',
+          icon: 'fa-comments',
+          title: 'Scripts & communication de vente',
+          description: 'Les mots exacts pour convertir tes followers en clients payants.',
+        },
+        {
+          number: '09',
+          icon: 'fa-calculator',
+          title: 'Gérer revenus, impôts, URSSAF',
+          description:
+            "Tout ce que tu dois savoir pour gérer l'aspect administratif et légal sereinement.",
+        },
+      ];
+
+      const bonusData = [
+        {
+          icon: 'fa-star',
+          title: 'Vendre en DM — tunnel de confiance 5 étapes',
+          description:
+            'Le système exact pour convertir tes conversations privées en ventes, sans être pushy ni agressif. Valeur : 147€',
+          highlight: 'Méthode exclusive',
+        },
+        {
+          icon: 'fa-rocket',
+          title: 'Pub TikTok/Instagram — stratégie anonyme complète',
+          description:
+            'Comment faire de la publicité efficace sans montrer ton visage, avec des budgets mini et des résultats maxi. Valeur : 150€',
+          highlight: 'Stratégie pro',
+        },
+      ];
+
+      const testimonialsData = [
+        {
+          name: 'Sarah M.',
+          avatar: 'https://picsum.photos/100/100?random=10',
+          text: "J'ai fait mes premières ventes en 3 semaines, méthode claire et actionnable",
+          rating: 5,
+        },
+        {
+          name: 'Karim D.',
+          avatar: 'https://picsum.photos/100/100?random=11',
+          text: 'Enfin une formation qui explique TOUT, même la partie administrative',
+          rating: 5,
+        },
+        {
+          name: 'Léa T.',
+          avatar: 'https://picsum.photos/100/100?random=12',
+          text: "J'ai créé et vendu ma première formation en moins d'un mois",
+          rating: 5,
+        },
+      ];
+
+      const faqData = [
+        {
+          question: "Quand est-ce que j'ai accès à la formation ?",
+          answer:
+            'Immédiatement après paiement. Tu reçois un email avec tes identifiants et tu peux commencer directement depuis ton téléphone ou ordinateur.',
+        },
+        {
+          question: "C'est adapté aux débutants ?",
+          answer:
+            "Oui, zéro expérience requise. La formation part vraiment de zéro et t'accompagne pas à pas. Même si tu n'y connais rien en tech, tu pourras suivre sans problème.",
+        },
+        {
+          question: 'Combien de temps dure la formation ?',
+          answer:
+            "Tu progresses à ton rythme avec un accès à vie. Certains élèves lancent leur premier produit en 2 semaines, d'autres prennent 2 mois. L'important, c'est que tu aies accès à vie, sans pression.",
+        },
+        {
+          question: 'Le paiement est-il sécurisé ?',
+          answer:
+            'Oui, absolument. Tous les paiements passent par Beacons. Tes données bancaires sont cryptées et sécurisées.',
+        },
+        {
+          question: "Combien de temps j'ai accès à la formation ?",
+          answer:
+            "Une fois l'accès obtenu, tu suis la formation à ton rythme, sans limite de temps.",
+        },
+      ];
+
+      // Render Functions
+      function renderPainPoints(items) {
+        return items
+          .map(
+            (item) => `
+                <div class="bg-dark border border-dark-lighter rounded-2xl p-6 text-center card-hover">
+                    <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas ${item.icon} text-2xl text-primary"></i>
+                    </div>
+                    <p class="text-lg font-medium text-gray-200">${item.text}</p>
+                </div>
+            `,
+          )
+          .join('');
+      }
+
+      function renderModules(items) {
+        return items
+          .map(
+            (item) => `
+                <div class="bg-dark border border-dark-lighter rounded-2xl p-6 card-hover group">
+                    <div class="flex items-start justify-between mb-4">
+                        <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors">
+                            <i class="fas ${item.icon} text-xl text-primary"></i>
+                        </div>
+                        <span class="text-2xl font-bold text-dark-lighter font-display">${item.number}</span>
+                    </div>
+                    <h3 class="text-lg font-bold mb-2 text-white group-hover:text-primary transition-colors">${item.title}</h3>
+                    <p class="text-sm text-gray-400 leading-relaxed">${item.description}</p>
+                </div>
+            `,
+          )
+          .join('');
+      }
+
+      function renderBonus(items) {
+        return items
+          .map(
+            (item) => `
+                <div class="gold-card rounded-2xl p-8 relative overflow-hidden card-hover">
+                    <div class="absolute top-0 right-0 bg-gradient-to-l from-yellow-500 to-yellow-600 text-dark text-xs font-bold px-4 py-1 rounded-bl-xl">
+                        ${item.highlight}
+                    </div>
+                    <div class="flex items-center gap-4 mb-4">
+                        <div class="w-14 h-14 bg-yellow-500/20 rounded-full flex items-center justify-center">
+                            <i class="fas ${item.icon} text-2xl text-yellow-500"></i>
+                        </div>
+                        <div class="text-yellow-500 text-2xl">⭐</div>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3 text-white">${item.title}</h3>
+                    <p class="text-gray-300 text-sm leading-relaxed mb-4">${item.description}</p>
+                    <div class="inline-block bg-yellow-500/10 border border-yellow-500/30 rounded-full px-4 py-1">
+                        <span class="text-yellow-500 text-sm font-semibold">Bonus offert</span>
+                    </div>
+                </div>
+            `,
+          )
+          .join('');
+      }
+
+      function renderTestimonials(items) {
+        return items
+          .map((item) => {
+            const stars = Array(item.rating)
+              .fill('<i class="fas fa-star text-yellow-500 text-sm"></i>')
+              .join('');
+            return `
+                    <div class="bg-dark border border-dark-lighter rounded-2xl p-6 card-hover">
+                        <div class="flex items-center gap-4 mb-4">
+                            <img src="${item.avatar}" alt="Photo de ${item.name}" class="w-12 h-12 rounded-full object-cover border-2 border-primary">
+                            <div>
+                                <h4 class="font-bold text-white">${item.name}</h4>
+                                <div class="flex gap-1">${stars}</div>
+                            </div>
+                        </div>
+                        <p class="text-gray-300 italic leading-relaxed">"${item.text}"</p>
+                    </div>
+                `;
+          })
+          .join('');
+      }
+
+      function renderFAQ(items) {
+        return items
+          .map(
+            (item, index) => `
+                <div class="bg-dark border border-dark-lighter rounded-xl overflow-hidden">
+                    <button class="faq-toggle w-full px-6 py-4 flex items-center justify-between text-left hover:bg-dark-light transition-colors" data-index="${index}">
+                        <span class="font-semibold text-white pr-4">${item.question}</span>
+                        <i class="fas fa-chevron-down text-primary faq-icon flex-shrink-0"></i>
+                    </button>
+                    <div class="faq-content px-6" id="faq-content-${index}">
+                        <div class="pb-4 text-gray-400 leading-relaxed">
+                            ${item.answer}
+                        </div>
+                    </div>
+                </div>
+            `,
+          )
+          .join('');
+      }
+
+      // Initialize Rendering
+      document.getElementById('pain-points-container').innerHTML = renderPainPoints(painPointsData);
+      document.getElementById('modules-container').innerHTML = renderModules(modulesData);
+      document.getElementById('bonus-container').innerHTML = renderBonus(bonusData);
+      document.getElementById('testimonials-container').innerHTML =
+        renderTestimonials(testimonialsData);
+      document.getElementById('faq-container').innerHTML = renderFAQ(faqData);
+
+      // FAQ Accordion Logic
+      document.querySelectorAll('.faq-toggle').forEach((button) => {
+        button.addEventListener('click', function () {
+          const index = this.getAttribute('data-index');
+          const content = document.getElementById(`faq-content-${index}`);
+          const icon = this.querySelector('.faq-icon');
+
+          // Close all others
+          document.querySelectorAll('.faq-content').forEach((el, i) => {
+            if (i != index) {
+              el.classList.remove('active');
+              el.style.maxHeight = null;
+            }
+          });
+          document.querySelectorAll('.faq-icon').forEach((el, i) => {
+            if (i != index) el.classList.remove('active');
+          });
+
+          // Toggle current
+          content.classList.toggle('active');
+          icon.classList.toggle('active');
+
+          if (content.classList.contains('active')) {
+            content.style.maxHeight = content.scrollHeight + 'px';
+          } else {
+            content.style.maxHeight = null;
+          }
+        });
+      });
+
+      // Smooth Scroll Navigation
+      document.addEventListener('click', function (event) {
+        const link = event.target.closest("a[href^='#']");
+        if (!link) return;
+
+        event.preventDefault();
+        const targetId = link.getAttribute('href');
+        const targetElement = document.querySelector(targetId);
+
+        if (targetElement) {
+          const headerOffset = 80;
+          const elementPosition = targetElement.getBoundingClientRect().top;
+          const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+          window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth',
+          });
+        }
+      });
+
+      // Intersection Observer for fade-in animations
+      const observerOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.1,
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, observerOptions);
+
+      // Observe all cards
+      document.querySelectorAll('.card-hover').forEach((el, index) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = `opacity 0.6s ease ${index * 0.1}s, transform 0.6s ease ${index * 0.1}s`;
+        observer.observe(el);
+      });
+    </script>
+  </body>
+</html>
